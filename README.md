@@ -1,4 +1,4 @@
-# FastAPI Bank Management Application
+# Bank Management Application
 This application is a simple, lightweight Bank Management API built with FastAPI and SQLAlchemy. It offers a Web API to allow our users to view their Bank Accounts and the transaction history of their accounts. It is designed with a focus on simplicity, flexibility, and performance, and is ready for containerization with Docker.
 
 ## About
@@ -15,11 +15,11 @@ This application is a simple, lightweight Bank Management API built with FastAPI
 ## Installation
 1. Clone the repository.
 ```
-git clone https://github.com/aws-samples/python-fastapi-demo-docker.git
+git clone git@github.com:arslant1996/undetectable-bank.git
 ```
 2. Navigate into the project directory and make a copy of the example environment variables file.
 ```
-cd python-fastapi-demo-docker
+cd undetectable-bank
 cp .env.example .env
 ```
 The .env file contains the database credentials. You can modify these credentials if necessary.
